@@ -1,17 +1,19 @@
-# Modelisation-Stockage-CO2-Environnement-CPP
+# Modelisation-Stockage-CO2-Environnement-PY
 
-Utilisation du projet
+Ce projet simule le stockage du dioxyde de carbone (CO₂) entre l’atmosphère, les arbres et les sols à l’aide d’un modèle mathématique résolu numériquement.
 
-Exécution
----------
-Pour utiliser ce projet, il suffit d'exécuter le fichier "eigein_demo.exe" situé dans le répertoire :
+Description
+Le script Python implémente un système d’équations différentielles décrivant les transferts de carbone. La résolution utilise un schéma implicite et la méthode de Newton-Raphson, et affiche graphiquement l’évolution des concentrations dans chaque compartiment.
 
-    build/Debug/
+Installation
+Python 3.x requis
 
-Compilation
------------
-Si vous souhaitez compiler le projet vous-même :
+Installer les dépendances :
 
-1. Assurez-vous d'avoir CMake installé.
-2. Utilisez le fichier CMake déjà présent dans le projet pour générer les fichiers de build.
-3. Aucune bibliothèque externe n'est nécessaire : toutes les dépendances sont déjà incluses dans le projet.
+bash
+pip install numpy matplotlib
+Utilisation
+Lancer le fichier CODE.py pour exécuter des simulations et visualiser les résultats. Les principaux paramètres (séquestration, respiration, etc.) sont modifiables dans le script.
+
+Auteurs
+CHENNOUFI MURATORE METIER
